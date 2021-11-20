@@ -1,0 +1,16 @@
+{
+  "name": "recycle",
+  "version": "1.0.0",
+  "description": "recycling website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^91.0.0",
+    "mongodb": "^4.2.0"
+  }
+}
