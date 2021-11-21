@@ -44,6 +44,7 @@ app.use(function(err, req, res, next) {
 })
 
 const dbURI = process.env.DBURI
+
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('connected to mongoDB')
